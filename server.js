@@ -53,6 +53,7 @@ const aliens = {
         'image': 'https://static.wikia.nocookie.net/aliens/images/4/42/EzriDax.jpg'}
 }
 
+
 app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html')
 })
